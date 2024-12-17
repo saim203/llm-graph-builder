@@ -10,6 +10,8 @@ from typing import List
 import re
 import os
 from pathlib import Path
+import boto3
+from langchain_aws import BedrockEmbeddings
 
 def check_url_source(source_type, yt_url:str=None, wiki_query:str=None):
     language=''
@@ -75,6 +77,22 @@ def load_embedding_model(embedding_model_name: str):
         )
         dimension = 768
         logging.info(f"Embedding: Using Vertex AI Embeddings , Dimension:{dimension}")
+    elif embedding_model_name == "bedrock":
+        env_value = os.environ.get("BEDROCK_EMBEDDING_MODEL")
+        if env_value:
+          model_name, aws_access_key, aws_secret_key, region_name = env_value.split(",")
+        else:
+           error = "Bedrock embedding model is not set in environment variable. Refer example .env"
+           logging.error(error)
+           raise Exception(error)
+        bedrock_client = boto3.client(service_name="bedrock-runtime",
+                                      region_name=region_name,
+                                      aws_access_key_id=aws_access_key,
+                                      aws_secret_access_key=aws_secret_key)
+        embeddings = BedrockEmbeddings(model_id=model_name,
+                                       client=bedrock_client)
+        dimension = 1536
+        logging.info(f"Embedding: Using Bedrock Embeddings , Dimension:{dimension}")   
     else:
         embeddings = HuggingFaceEmbeddings(
             model_name="all-MiniLM-L6-v2"#, cache_folder="/embedding_model"
