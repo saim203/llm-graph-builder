@@ -30,9 +30,16 @@ class CreateChunksofDocument:
         total_content = ''.join(page.page_content for page in self.pages)
         total_tokens = len(total_content.split())  
 
-        chunk_size = ceil(total_tokens / chunks_to_be_processed)
-        logging.info(f"Dynamic chunk size set to: {chunk_size} tokens (to fit within {chunks_to_be_processed} chunks)")
-        text_splitter = TokenTextSplitter(chunk_size=chunk_size, chunk_overlap=20)
+        if total_tokens <= chunks_to_be_processed:
+           chunk_size = 1
+           chunk_overlap = 0
+           logging.info("Small file detected. Setting chunk size to 1 token with no overlap.")
+        else:
+           chunk_size = max(1, ceil(total_tokens / chunks_to_be_processed))
+           chunk_overlap = min(chunk_size // 10, chunk_size - 1, 20)  # Ensure overlap is smaller than chunk size
+           logging.info(f"Dynamic chunk size: {chunk_size}, Dynamic chunk overlap: {chunk_overlap}")
+
+        text_splitter = TokenTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
         chunks = []
         if 'page' in self.pages[0].metadata:
             for i, document in enumerate(self.pages):
