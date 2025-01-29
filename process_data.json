@@ -1,0 +1,851 @@
+{
+  "ocel:version": "1.0",
+  "ocel:ordering": "timestamp",
+  "ocel:attribute-names": [],
+  "ocel:events": [
+    {
+      "ocel:id": "Case_1_Create Purchase Requisition",
+      "ocel:timestamp": "2021-04-18T06:44:02",
+      "ocel:activity": "Create Purchase Requisition",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "manager",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Approve Purchase Requisition",
+      "ocel:timestamp": "2021-04-20T06:44:02",
+      "ocel:activity": "Approve Purchase Requisition",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "manager",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Create Purchase Order",
+      "ocel:timestamp": "2021-04-25T06:44:02",
+      "ocel:activity": "Create Purchase Order",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "manager",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Send Purchase Order",
+      "ocel:timestamp": "2021-04-28T06:44:02",
+      "ocel:activity": "Send Purchase Order",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "employee",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Receive Goods",
+      "ocel:timestamp": "2021-05-02T06:44:02",
+      "ocel:activity": "Receive Goods",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "employee",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Receive Invoice",
+      "ocel:timestamp": "2021-05-05T06:44:02",
+      "ocel:activity": "Receive Invoice",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "manager",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Validate Invoice",
+      "ocel:timestamp": "2021-05-09T06:44:02",
+      "ocel:activity": "Validate Invoice",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "employee",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Process Payment",
+      "ocel:timestamp": "2021-05-13T06:44:02",
+      "ocel:activity": "Process Payment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "bot",
+        "case_id": "Case_1",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_1",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_2_Create Purchase Requisition",
+      "ocel:timestamp": "2021-08-07T20:22:42",
+      "ocel:activity": "Create Purchase Requisition",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "employee",
+        "case_id": "Case_2",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_2",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_2_Create Purchase Order",
+      "ocel:timestamp": "2021-08-11T20:22:42",
+      "ocel:activity": "Create Purchase Order",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "bot",
+        "case_id": "Case_2",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_2",
+          "type": "Resource"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_2_Send Purchase Order",
+      "ocel:timestamp": "2021-08-13T20:22:42",
+      "ocel:activity": "Send Purchase Order",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "bot",
+        "case_id": "Case_2",
+        "object_type": "Resource"
+      },
+      "ocel:objects": [
+        {
+          "id": "Resource_Case_2",
+          "type": "Resource"
+        }
+      ]
+    }
+  ],
+  "ocel:objects": [
+    {
+      "ocel:id": "Resource_Receive Invoice",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Resource_Process Payment",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Resource_Receive Goods",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Resource_Validate Invoice",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Resource_Create Purchase Requisition",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Resource_Send Purchase Order",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Resource_Create Purchase Order",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Resource_Approve Purchase Requisition",
+      "ocel:type": "Resource",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Receive Invoice",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Process Payment",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Receive Goods",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Validate Invoice",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Create Purchase Requisition",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Send Purchase Order",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Create Purchase Order",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Username_Approve Purchase Requisition",
+      "ocel:type": "Username",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Receive Invoice",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Process Payment",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Receive Goods",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Validate Invoice",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Create Purchase Requisition",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Send Purchase Order",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Create Purchase Order",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Vendor_Approve Purchase Requisition",
+      "ocel:type": "Vendor",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Receive Invoice",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Process Payment",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Receive Goods",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Validate Invoice",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Create Purchase Requisition",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Send Purchase Order",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Create Purchase Order",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Amount_Approve Purchase Requisition",
+      "ocel:type": "Amount",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Receive Invoice",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Process Payment",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Receive Goods",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Validate Invoice",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Create Purchase Requisition",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Send Purchase Order",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Create Purchase Order",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Description_Approve Purchase Requisition",
+      "ocel:type": "Product_Description",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Receive Invoice",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Process Payment",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Receive Goods",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Validate Invoice",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Create Purchase Requisition",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Send Purchase Order",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Create Purchase Order",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Product_Type_Approve Purchase Requisition",
+      "ocel:type": "Product_Type",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Receive Invoice",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Process Payment",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Receive Goods",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Validate Invoice",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Create Purchase Requisition",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Send Purchase Order",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Create Purchase Order",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Quantity_Approve Purchase Requisition",
+      "ocel:type": "Quantity",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Receive Invoice",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Process Payment",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Receive Goods",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Validate Invoice",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Create Purchase Requisition",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Send Purchase Order",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Create Purchase Order",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Business_Unit_Approve Purchase Requisition",
+      "ocel:type": "Business_Unit",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Receive Invoice",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Process Payment",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Receive Goods",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Validate Invoice",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Create Purchase Requisition",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Send Purchase Order",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Create Purchase Order",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Order_Type_Approve Purchase Requisition",
+      "ocel:type": "Order_Type",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Receive Invoice",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Receive Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Process Payment",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Process Payment",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Receive Goods",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Receive Goods",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Validate Invoice",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Validate Invoice",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Create Purchase Requisition",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Create Purchase Requisition",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Send Purchase Order",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Send Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Create Purchase Order",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Create Purchase Order",
+        "attributes": []
+      }
+    },
+    {
+      "ocel:id": "Currency_Approve Purchase Requisition",
+      "ocel:type": "Currency",
+      "ocel:attributes": {
+        "activity": "Approve Purchase Requisition",
+        "attributes": []
+      }
+    }
+  ],
+  "ocel:object-types": [
+    "Resource",
+    "Username",
+    "Vendor",
+    "Amount",
+    "Product_Description",
+    "Product_Type",
+    "Quantity",
+    "Business_Unit",
+    "Order_Type",
+    "Currency"
+  ],
+  "ocel:global-log": {
+    "ocel:attribute-names": []
+  }
+}
