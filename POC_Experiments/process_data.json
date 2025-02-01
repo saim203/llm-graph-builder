@@ -1,0 +1,2234 @@
+{
+  "ocel:version": "1.0",
+  "ocel:ordering": "timestamp",
+  "ocel:attribute-names": [],
+  "ocel:events": [
+    {
+      "ocel:id": "Case_1_Trade Initiated",
+      "ocel:timestamp": "2025-01-28T22:35:47.867835",
+      "ocel:activity": "Trade Initiated",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Market Data Validation",
+      "ocel:timestamp": "2025-01-28T23:28:47.867835",
+      "ocel:activity": "Market Data Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Quote Requested",
+      "ocel:timestamp": "2025-01-28T23:39:47.867835",
+      "ocel:activity": "Quote Requested",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_1",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Trade Validation",
+      "ocel:timestamp": "2025-01-29T01:10:47.867835",
+      "ocel:activity": "Trade Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Transaction Reporting Check",
+      "ocel:timestamp": "2025-01-29T01:15:47.867835",
+      "ocel:activity": "Transaction Reporting Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Quote Provided",
+      "ocel:timestamp": "2025-01-29T01:32:47.867835",
+      "ocel:activity": "Quote Provided",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_1",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Trade Execution",
+      "ocel:timestamp": "2025-01-29T01:47:47.867835",
+      "ocel:activity": "Trade Execution",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Position Reconciliation",
+      "ocel:timestamp": "2025-01-29T02:45:47.867835",
+      "ocel:activity": "Position Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Settlement"
+      },
+      "ocel:objects": [
+        {
+          "id": "Settlement_Case_1",
+          "type": "Settlement"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Trade Reconciliation",
+      "ocel:timestamp": "2025-01-29T02:48:47.867835",
+      "ocel:activity": "Trade Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Trade Confirmation",
+      "ocel:timestamp": "2025-01-29T03:01:47.867835",
+      "ocel:activity": "Trade Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Credit Line Check",
+      "ocel:timestamp": "2025-01-29T04:00:47.867835",
+      "ocel:activity": "Credit Line Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Risk Assessment",
+      "ocel:timestamp": "2025-01-29T04:11:47.867835",
+      "ocel:activity": "Risk Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Risk"
+      },
+      "ocel:objects": [
+        {
+          "id": "Risk_Case_1",
+          "type": "Risk"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Trade Transparency Assessment",
+      "ocel:timestamp": "2025-01-29T04:35:47.867835",
+      "ocel:activity": "Trade Transparency Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Trade Matching",
+      "ocel:timestamp": "2025-01-29T06:03:47.867835",
+      "ocel:activity": "Trade Matching",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Regulatory Reporting Generation",
+      "ocel:timestamp": "2025-01-29T07:08:47.867835",
+      "ocel:activity": "Regulatory Reporting Generation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Forward Value Date Confirmation",
+      "ocel:timestamp": "2025-01-29T07:27:47.867835",
+      "ocel:activity": "Forward Value Date Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Settlement Instructions",
+      "ocel:timestamp": "2025-01-29T07:35:47.867835",
+      "ocel:activity": "Settlement Instructions",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Forward Points Calculation",
+      "ocel:timestamp": "2025-01-29T09:23:47.867835",
+      "ocel:activity": "Forward Points Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Margin Calculation",
+      "ocel:timestamp": "2025-01-29T13:35:47.867835",
+      "ocel:activity": "Margin Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1_Best Execution Validation",
+      "ocel:timestamp": "2025-01-29T14:27:47.867835",
+      "ocel:activity": "Best Execution Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Trade Initiated",
+      "ocel:timestamp": "2025-01-12T22:35:47.869098",
+      "ocel:activity": "Trade Initiated",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Market Data Validation",
+      "ocel:timestamp": "2025-01-12T23:28:47.869098",
+      "ocel:activity": "Market Data Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Quote Requested",
+      "ocel:timestamp": "2025-01-13T00:15:47.869098",
+      "ocel:activity": "Quote Requested",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Quote Provided",
+      "ocel:timestamp": "2025-01-13T00:41:47.869098",
+      "ocel:activity": "Quote Provided",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Trade Validation",
+      "ocel:timestamp": "2025-01-13T00:50:47.869098",
+      "ocel:activity": "Trade Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Settlement Instructions",
+      "ocel:timestamp": "2025-01-13T01:17:47.869098",
+      "ocel:activity": "Settlement Instructions",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Trade Confirmation",
+      "ocel:timestamp": "2025-01-13T01:30:47.869098",
+      "ocel:activity": "Trade Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Trade Execution",
+      "ocel:timestamp": "2025-01-13T02:27:47.869098",
+      "ocel:activity": "Trade Execution",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Trade Matching",
+      "ocel:timestamp": "2025-01-13T02:27:47.869098",
+      "ocel:activity": "Trade Matching",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Margin Calculation",
+      "ocel:timestamp": "2025-01-13T03:50:47.869098",
+      "ocel:activity": "Margin Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Risk Assessment",
+      "ocel:timestamp": "2025-01-13T04:35:47.869098",
+      "ocel:activity": "Risk Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Risk"
+      },
+      "ocel:objects": [
+        {
+          "id": "Risk_Case_10",
+          "type": "Risk"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Forward Points Calculation",
+      "ocel:timestamp": "2025-01-13T06:23:47.869098",
+      "ocel:activity": "Forward Points Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Trade Reconciliation",
+      "ocel:timestamp": "2025-01-13T07:45:47.869098",
+      "ocel:activity": "Trade Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Position Reconciliation",
+      "ocel:timestamp": "2025-01-13T08:05:47.869098",
+      "ocel:activity": "Position Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Settlement"
+      },
+      "ocel:objects": [
+        {
+          "id": "Settlement_Case_10",
+          "type": "Settlement"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Credit Line Check",
+      "ocel:timestamp": "2025-01-13T08:59:47.869098",
+      "ocel:activity": "Credit Line Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10_Forward Value Date Confirmation",
+      "ocel:timestamp": "2025-01-13T09:47:47.869098",
+      "ocel:activity": "Forward Value Date Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Trade Initiated",
+      "ocel:timestamp": "2025-01-29T22:35:47.882025",
+      "ocel:activity": "Trade Initiated",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Market Data Validation",
+      "ocel:timestamp": "2025-01-29T22:46:47.882025",
+      "ocel:activity": "Market Data Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Trade Execution",
+      "ocel:timestamp": "2025-01-29T23:35:47.882025",
+      "ocel:activity": "Trade Execution",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Quote Provided",
+      "ocel:timestamp": "2025-01-29T23:38:47.882025",
+      "ocel:activity": "Quote Provided",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_100",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Quote Requested",
+      "ocel:timestamp": "2025-01-29T23:51:47.882025",
+      "ocel:activity": "Quote Requested",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_100",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Trade Matching",
+      "ocel:timestamp": "2025-01-30T00:35:47.882025",
+      "ocel:activity": "Trade Matching",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Trade Reconciliation",
+      "ocel:timestamp": "2025-01-30T01:09:47.882025",
+      "ocel:activity": "Trade Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Risk Assessment",
+      "ocel:timestamp": "2025-01-30T01:53:47.882025",
+      "ocel:activity": "Risk Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Risk"
+      },
+      "ocel:objects": [
+        {
+          "id": "Risk_Case_100",
+          "type": "Risk"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Regulatory Reporting Generation",
+      "ocel:timestamp": "2025-01-30T02:04:47.882025",
+      "ocel:activity": "Regulatory Reporting Generation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Forward Value Date Confirmation",
+      "ocel:timestamp": "2025-01-30T02:33:47.882025",
+      "ocel:activity": "Forward Value Date Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Trade Validation",
+      "ocel:timestamp": "2025-01-30T02:35:47.882025",
+      "ocel:activity": "Trade Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Position Reconciliation",
+      "ocel:timestamp": "2025-01-30T02:45:47.882025",
+      "ocel:activity": "Position Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Settlement"
+      },
+      "ocel:objects": [
+        {
+          "id": "Settlement_Case_100",
+          "type": "Settlement"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Forward Points Calculation",
+      "ocel:timestamp": "2025-01-30T02:59:47.882025",
+      "ocel:activity": "Forward Points Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Trade Confirmation",
+      "ocel:timestamp": "2025-01-30T03:08:47.882025",
+      "ocel:activity": "Trade Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Credit Line Check",
+      "ocel:timestamp": "2025-01-30T04:00:47.882025",
+      "ocel:activity": "Credit Line Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Settlement Instructions",
+      "ocel:timestamp": "2025-01-30T06:23:47.882025",
+      "ocel:activity": "Settlement Instructions",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Transaction Reporting Check",
+      "ocel:timestamp": "2025-01-30T08:11:47.882025",
+      "ocel:activity": "Transaction Reporting Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Margin Calculation",
+      "ocel:timestamp": "2025-01-30T08:35:47.882025",
+      "ocel:activity": "Margin Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Trade Transparency Assessment",
+      "ocel:timestamp": "2025-01-30T14:11:47.882025",
+      "ocel:activity": "Trade Transparency Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_100_Best Execution Validation",
+      "ocel:timestamp": "2025-01-30T14:44:47.882025",
+      "ocel:activity": "Best Execution Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_100",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_100",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Trade Initiated",
+      "ocel:timestamp": "2025-01-25T22:35:48.040954",
+      "ocel:activity": "Trade Initiated",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Quote Requested",
+      "ocel:timestamp": "2025-01-25T22:59:48.040954",
+      "ocel:activity": "Quote Requested",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_1000",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Market Data Validation",
+      "ocel:timestamp": "2025-01-25T23:02:48.040954",
+      "ocel:activity": "Market Data Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Quote Provided",
+      "ocel:timestamp": "2025-01-26T00:08:48.040954",
+      "ocel:activity": "Quote Provided",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_1000",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Trade Validation",
+      "ocel:timestamp": "2025-01-26T01:35:48.040954",
+      "ocel:activity": "Trade Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Trade Execution",
+      "ocel:timestamp": "2025-01-26T02:03:48.040954",
+      "ocel:activity": "Trade Execution",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Trade Confirmation",
+      "ocel:timestamp": "2025-01-26T02:05:48.040954",
+      "ocel:activity": "Trade Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Trade Matching",
+      "ocel:timestamp": "2025-01-26T02:27:48.040954",
+      "ocel:activity": "Trade Matching",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Forward Points Calculation",
+      "ocel:timestamp": "2025-01-26T02:59:48.040954",
+      "ocel:activity": "Forward Points Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Risk Assessment",
+      "ocel:timestamp": "2025-01-26T03:05:48.040954",
+      "ocel:activity": "Risk Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Risk"
+      },
+      "ocel:objects": [
+        {
+          "id": "Risk_Case_1000",
+          "type": "Risk"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Credit Line Check",
+      "ocel:timestamp": "2025-01-26T03:08:48.040954",
+      "ocel:activity": "Credit Line Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Settlement Instructions",
+      "ocel:timestamp": "2025-01-26T03:14:48.040954",
+      "ocel:activity": "Settlement Instructions",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Best Execution Validation",
+      "ocel:timestamp": "2025-01-26T06:31:48.040954",
+      "ocel:activity": "Best Execution Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Regulatory Reporting Generation",
+      "ocel:timestamp": "2025-01-26T06:49:48.040954",
+      "ocel:activity": "Regulatory Reporting Generation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Position Reconciliation",
+      "ocel:timestamp": "2025-01-26T06:55:48.040954",
+      "ocel:activity": "Position Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Settlement"
+      },
+      "ocel:objects": [
+        {
+          "id": "Settlement_Case_1000",
+          "type": "Settlement"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Transaction Reporting Check",
+      "ocel:timestamp": "2025-01-26T07:39:48.040954",
+      "ocel:activity": "Transaction Reporting Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Forward Value Date Confirmation",
+      "ocel:timestamp": "2025-01-26T08:37:48.040954",
+      "ocel:activity": "Forward Value Date Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Trade Reconciliation",
+      "ocel:timestamp": "2025-01-26T09:13:48.040954",
+      "ocel:activity": "Trade Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Margin Calculation",
+      "ocel:timestamp": "2025-01-26T09:20:48.040954",
+      "ocel:activity": "Margin Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_1000_Trade Transparency Assessment",
+      "ocel:timestamp": "2025-01-26T14:29:48.040954",
+      "ocel:activity": "Trade Transparency Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_1000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_1000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Trade Initiated",
+      "ocel:timestamp": "2025-01-29T22:35:49.109906",
+      "ocel:activity": "Trade Initiated",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Market Data Validation",
+      "ocel:timestamp": "2025-01-29T22:59:49.109906",
+      "ocel:activity": "Market Data Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Trade Execution",
+      "ocel:timestamp": "2025-01-29T23:43:49.109906",
+      "ocel:activity": "Trade Execution",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Quote Requested",
+      "ocel:timestamp": "2025-01-30T00:05:49.109906",
+      "ocel:activity": "Quote Requested",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10000",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Trade Validation",
+      "ocel:timestamp": "2025-01-30T01:00:49.109906",
+      "ocel:activity": "Trade Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Forward Points Calculation",
+      "ocel:timestamp": "2025-01-30T01:23:49.109906",
+      "ocel:activity": "Forward Points Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Quote Provided",
+      "ocel:timestamp": "2025-01-30T01:26:49.109906",
+      "ocel:activity": "Quote Provided",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10000",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Settlement Instructions",
+      "ocel:timestamp": "2025-01-30T01:35:49.109906",
+      "ocel:activity": "Settlement Instructions",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Risk Assessment",
+      "ocel:timestamp": "2025-01-30T02:59:49.109906",
+      "ocel:activity": "Risk Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Risk"
+      },
+      "ocel:objects": [
+        {
+          "id": "Risk_Case_10000",
+          "type": "Risk"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Trade Reconciliation",
+      "ocel:timestamp": "2025-01-30T02:59:49.109906",
+      "ocel:activity": "Trade Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Credit Line Check",
+      "ocel:timestamp": "2025-01-30T03:08:49.109906",
+      "ocel:activity": "Credit Line Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Trade Confirmation",
+      "ocel:timestamp": "2025-01-30T04:39:49.109906",
+      "ocel:activity": "Trade Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Forward Value Date Confirmation",
+      "ocel:timestamp": "2025-01-30T04:53:49.109906",
+      "ocel:activity": "Forward Value Date Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Trade Matching",
+      "ocel:timestamp": "2025-01-30T05:47:49.109906",
+      "ocel:activity": "Trade Matching",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Position Reconciliation",
+      "ocel:timestamp": "2025-01-30T06:15:49.109906",
+      "ocel:activity": "Position Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Settlement"
+      },
+      "ocel:objects": [
+        {
+          "id": "Settlement_Case_10000",
+          "type": "Settlement"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10000_Margin Calculation",
+      "ocel:timestamp": "2025-01-30T09:50:49.109906",
+      "ocel:activity": "Margin Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10000",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10000",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Trade Initiated",
+      "ocel:timestamp": "2025-01-10T22:35:49.110193",
+      "ocel:activity": "Trade Initiated",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Market Data Validation",
+      "ocel:timestamp": "2025-01-10T23:08:49.110193",
+      "ocel:activity": "Market Data Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Quote Provided",
+      "ocel:timestamp": "2025-01-10T23:23:49.110193",
+      "ocel:activity": "Quote Provided",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10001",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Quote Requested",
+      "ocel:timestamp": "2025-01-10T23:29:49.110193",
+      "ocel:activity": "Quote Requested",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10001",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Trade Execution",
+      "ocel:timestamp": "2025-01-11T01:03:49.110193",
+      "ocel:activity": "Trade Execution",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Forward Value Date Confirmation",
+      "ocel:timestamp": "2025-01-11T01:09:49.110193",
+      "ocel:activity": "Forward Value Date Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Trade Validation",
+      "ocel:timestamp": "2025-01-11T01:40:49.110193",
+      "ocel:activity": "Trade Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Risk Assessment",
+      "ocel:timestamp": "2025-01-11T01:47:49.110193",
+      "ocel:activity": "Risk Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Risk"
+      },
+      "ocel:objects": [
+        {
+          "id": "Risk_Case_10001",
+          "type": "Risk"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Trade Reconciliation",
+      "ocel:timestamp": "2025-01-11T03:54:49.110193",
+      "ocel:activity": "Trade Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Trade Confirmation",
+      "ocel:timestamp": "2025-01-11T03:57:49.110193",
+      "ocel:activity": "Trade Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Credit Line Check",
+      "ocel:timestamp": "2025-01-11T04:00:49.110193",
+      "ocel:activity": "Credit Line Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Position Reconciliation",
+      "ocel:timestamp": "2025-01-11T04:05:49.110193",
+      "ocel:activity": "Position Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Settlement"
+      },
+      "ocel:objects": [
+        {
+          "id": "Settlement_Case_10001",
+          "type": "Settlement"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Trade Matching",
+      "ocel:timestamp": "2025-01-11T05:55:49.110193",
+      "ocel:activity": "Trade Matching",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Forward Points Calculation",
+      "ocel:timestamp": "2025-01-11T06:47:49.110193",
+      "ocel:activity": "Forward Points Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Settlement Instructions",
+      "ocel:timestamp": "2025-01-11T07:26:49.110193",
+      "ocel:activity": "Settlement Instructions",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10001_Margin Calculation",
+      "ocel:timestamp": "2025-01-11T10:50:49.110193",
+      "ocel:activity": "Margin Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10001",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10001",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Trade Initiated",
+      "ocel:timestamp": "2025-01-24T22:35:49.110391",
+      "ocel:activity": "Trade Initiated",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Trade Validation",
+      "ocel:timestamp": "2025-01-24T23:25:49.110391",
+      "ocel:activity": "Trade Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Market Data Validation",
+      "ocel:timestamp": "2025-01-24T23:32:49.110391",
+      "ocel:activity": "Market Data Validation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Quote Provided",
+      "ocel:timestamp": "2025-01-25T00:05:49.110391",
+      "ocel:activity": "Quote Provided",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10002",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Quote Requested",
+      "ocel:timestamp": "2025-01-25T00:15:49.110391",
+      "ocel:activity": "Quote Requested",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Market"
+      },
+      "ocel:objects": [
+        {
+          "id": "Market_Case_10002",
+          "type": "Market"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Trade Matching",
+      "ocel:timestamp": "2025-01-25T01:07:49.110391",
+      "ocel:activity": "Trade Matching",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Trade Execution",
+      "ocel:timestamp": "2025-01-25T01:27:49.110391",
+      "ocel:activity": "Trade Execution",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Risk Assessment",
+      "ocel:timestamp": "2025-01-25T02:05:49.110391",
+      "ocel:activity": "Risk Assessment",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Risk"
+      },
+      "ocel:objects": [
+        {
+          "id": "Risk_Case_10002",
+          "type": "Risk"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Forward Points Calculation",
+      "ocel:timestamp": "2025-01-25T02:35:49.110391",
+      "ocel:activity": "Forward Points Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Trade Confirmation",
+      "ocel:timestamp": "2025-01-25T02:47:49.110391",
+      "ocel:activity": "Trade Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Margin Calculation",
+      "ocel:timestamp": "2025-01-25T02:50:49.110391",
+      "ocel:activity": "Margin Calculation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Position Reconciliation",
+      "ocel:timestamp": "2025-01-25T03:05:49.110391",
+      "ocel:activity": "Position Reconciliation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Settlement"
+      },
+      "ocel:objects": [
+        {
+          "id": "Settlement_Case_10002",
+          "type": "Settlement"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Forward Value Date Confirmation",
+      "ocel:timestamp": "2025-01-25T04:25:49.110391",
+      "ocel:activity": "Forward Value Date Confirmation",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Credit Line Check",
+      "ocel:timestamp": "2025-01-25T04:39:49.110391",
+      "ocel:activity": "Credit Line Check",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    },
+    {
+      "ocel:id": "Case_10002_Settlement Instructions",
+      "ocel:timestamp": "2025-01-25T05:02:49.110391",
+      "ocel:activity": "Settlement Instructions",
+      "ocel:type": "event",
+      "ocel:attributes": {
+        "resource": "Unknown",
+        "case_id": "Case_10002",
+        "object_type": "Trade"
+      },
+      "ocel:objects": [
+        {
+          "id": "Trade_Case_10002",
+          "type": "Trade"
+        }
+      ]
+    }
+  ],
+  "ocel:objects": [
+    {
+      "ocel:id": "Trade_Trade Initiated",
+      "ocel:type": "Trade",
+      "ocel:attributes": {
+        "activity": "Trade Initiated",
+        "attributes": [
+          "currency_pair",
+          "notional_amount"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Trade_Trade Executed",
+      "ocel:type": "Trade",
+      "ocel:attributes": {
+        "activity": "Trade Executed",
+        "attributes": [
+          "currency_pair",
+          "notional_amount"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Trade_Trade Allocated",
+      "ocel:type": "Trade",
+      "ocel:attributes": {
+        "activity": "Trade Allocated",
+        "attributes": [
+          "currency_pair",
+          "notional_amount"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Trade_Trade Settled",
+      "ocel:type": "Trade",
+      "ocel:attributes": {
+        "activity": "Trade Settled",
+        "attributes": [
+          "currency_pair",
+          "notional_amount"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Trade_Trade Canceled",
+      "ocel:type": "Trade",
+      "ocel:attributes": {
+        "activity": "Trade Canceled",
+        "attributes": [
+          "currency_pair",
+          "notional_amount"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Market_Trade Executed",
+      "ocel:type": "Market",
+      "ocel:attributes": {
+        "activity": "Trade Executed",
+        "attributes": [
+          "currency_pair"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Market_Quote Requested",
+      "ocel:type": "Market",
+      "ocel:attributes": {
+        "activity": "Quote Requested",
+        "attributes": [
+          "currency_pair"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Market_Quote Provided",
+      "ocel:type": "Market",
+      "ocel:attributes": {
+        "activity": "Quote Provided",
+        "attributes": [
+          "currency_pair"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Risk_Trade Allocated",
+      "ocel:type": "Risk",
+      "ocel:attributes": {
+        "activity": "Trade Allocated",
+        "attributes": [
+          "risk_score"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Risk_Risk Assessment",
+      "ocel:type": "Risk",
+      "ocel:attributes": {
+        "activity": "Risk Assessment",
+        "attributes": [
+          "risk_score"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Settlement_Trade Settled",
+      "ocel:type": "Settlement",
+      "ocel:attributes": {
+        "activity": "Trade Settled",
+        "attributes": [
+          "settlement_amount"
+        ]
+      }
+    },
+    {
+      "ocel:id": "Settlement_Position Reconciliation",
+      "ocel:type": "Settlement",
+      "ocel:attributes": {
+        "activity": "Position Reconciliation",
+        "attributes": [
+          "settlement_amount"
+        ]
+      }
+    }
+  ],
+  "ocel:object-types": [
+    "Trade",
+    "Market",
+    "Risk",
+    "Settlement"
+  ],
+  "ocel:global-log": {
+    "ocel:attribute-names": []
+  }
+}
